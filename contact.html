@@ -13,72 +13,74 @@
   <title>My Responsive Portfolio</title>
 </head>
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <div class="navbar-header">
-      <h1>Jonelle Adona</h1>
-    </div>
+<body class="d-flex flex-column">
+  <div id="page-content">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="navbar-header">
+        <h1>Jonelle Adona</h1>
+      </div>
 
-    <!-- Navbar toggle button -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Navbar toggle button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Navbar links (ml-auto used to push right) -->
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="nav navbar-nav ml-auto">
-        <li class="nav-item ml-auto">
-          <a class="nav-link active" href="#">Contact</a>
-        </li>
-        <li class="nav-item ml-auto">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item ml-auto">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  
-  <!-- Main content -->
-  <main class="container">
-    <section class="jumbotron">
-      <!-- Row 1 -->
-      <section class="row">
-        <div class="col">
-          <h2>Contact</h2>
-        </div>
+      <!-- Navbar links (ml-auto used to push right) -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item ml-auto">
+            <a class="nav-link active" href="#">Contact</a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item ml-auto">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <!-- Main content -->
+    <main class="container">
+      <section class="jumbotron">
+        <!-- Row 1 -->
+        <section class="row">
+          <div class="col">
+            <h2>Contact</h2>
+          </div>
+        </section>
+
+        <!-- Row 2 -->
+        <section class="row">
+          <div class="col">
+            <form>
+              <div class="form-group">
+                <label for="nameform">Name</label>
+                <input type="text" class="form-control" id="nameform" placeholder="Name">
+              </div>
+
+              <div class="form-group">
+                <label for="emailform">Email address</label>
+                <input type="email" class="form-control" id="emailform" placeholder="name@example.com">
+              </div>
+
+              <div class="form-group">
+                <label for="messagw">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </section>
       </section>
-
-      <!-- Row 2 -->
-      <section class="row">
-        <div class="col">
-          <form>
-            <div class="form-group">
-              <label for="nameform">Name</label>
-              <input type="text" class="form-control" id="nameform" placeholder="Name">
-            </div>
-            
-            <div class="form-group">
-              <label for="emailform">Email address</label>
-              <input type="email" class="form-control" id="emailform" placeholder="name@example.com">
-            </div>
-
-            <div class="form-group">
-              <label for="Message">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-      </section>
-    </section>
-  </main>
+    </main>
+  </div>
 
   <!-- Footer  -->
-  <footer class="fixed-bottom">
+  <footer>
     <h5 class="text-center">&copy; 2020 Jonelle Adona</h5>
   </footer>
 </body>

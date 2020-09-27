@@ -8,5 +8,5 @@ When resizing the page, notice how the content layout will adapt based on the si
 
 ### Link to my webpage --> https://jonelleadona.github.io/mobile-responsive-portfolio.github.io/index.html
 
-
+![](./assets/images/index.png)
 

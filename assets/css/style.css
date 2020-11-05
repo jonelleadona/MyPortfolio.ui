@@ -1,0 +1,10 @@
+img {
+  border-radius: 50%;
+  width:200px;
+}
+
+#aboutMe {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}

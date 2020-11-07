@@ -1,10 +1,63 @@
-img {
+#me {
+  width:300px;
+  border-radius: 50%;
+}
+
+#meImg {
   border-radius: 50%;
   width:200px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#codingImg {
+  border-radius: 0%;
+}
+
+#weather {
+  width: 100%;
+}
+
+hr {
+  background-color: rgb(145, 143, 143);
+}
+
+#weatherHeading {
+  color: rgb(24, 23, 23);
+}
+
+#calendarHeading {
+  color:  rgb(24, 23, 23);
+}
+
+#calendar {
+  width: 100%;
+}
+
+.jumbotron {
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 #aboutMe {
   text-align: left;
   margin-left: 20%;
   margin-right: 20%;
+}
+
+#aboutMeImg {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container {
+  margin-top: 5%;
+}
+
+#contactImg {
+  text-align: center;
+  border-radius: 50%;
+  width: 100px;
+
 }

@@ -51,12 +51,31 @@ hr {
   margin-top: 5%;
 }
 
-#contactImg {
-  text-align: center;
+/* .contactImg {
   border-radius: 50%;
   max-height: 150px;
   max-width: 200px;
   width: 120px;
   height: 120px;
+} */
 
+#contactMe {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#resume {
+  width: 120px;
+  height: 120px;
+}
+
+#linkedin {
+  width: 140px;
+  height: 140px;
+}
+
+#github {
+  width: 115px;
+  height: 115px;
 }

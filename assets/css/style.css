@@ -75,7 +75,7 @@ hr {
 }
 
 #jonelle {
-  /* display: block; */
+  display: block;
   border-radius: 50%;
   width:200px;
   margin-left: 3%;
@@ -83,7 +83,7 @@ hr {
 }
 
 #bootcamp {
-  /* display: block; */
+  display: block;
   border-radius: 50%;
   width:200px;
   margin-left: 3%;

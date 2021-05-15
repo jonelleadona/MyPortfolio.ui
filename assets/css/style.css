@@ -33,9 +33,25 @@ hr {
 .jumbotron {
   padding-top: 1%;
   padding-bottom: 1%;
+  background:
+    url("../images/moutains.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    height:600px;
+}
+
+.page-scroll{
+  height:5000px;
 }
 
 #aboutMe {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#skills {
   text-align: left;
   margin-left: 20%;
   margin-right: 20%;
@@ -47,8 +63,38 @@ hr {
   margin-right: 10%;
 }
 
+#ucf {
+  border-radius: 50%;
+  width:200px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#jonelle {
+  /* display: block; */
+  border-radius: 50%;
+  width:200px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+#bootcamp {
+  /* display: block; */
+  border-radius: 50%;
+  width:200px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
 .container {
   margin-top: 5%;
+}
+
+#homeRow {
+  text-align: center;
+  width: 80%;
+  margin-left: 18%;
+  margin-right: 20%;
 }
 
 /* .contactImg {
@@ -78,4 +124,34 @@ hr {
 #github {
   width: 115px;
   height: 115px;
+}
+
+.wrapper {
+  height: 20vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
 }

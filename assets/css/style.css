@@ -42,7 +42,7 @@ hr {
 }
 
 .page-scroll{
-  height:5000px;
+  height:auto;
 }
 
 #aboutMe {
@@ -61,6 +61,8 @@ hr {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
+  max-width:100%;
+  height:auto;
 }
 
 #ucf {
@@ -68,6 +70,8 @@ hr {
   width:200px;
   margin-left: 3%;
   margin-right: 3%;
+  max-width:100%;
+  height:auto;
 }
 
 #jonelle {

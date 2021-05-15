@@ -70,7 +70,7 @@ hr {
   width:200px;
   margin-left: 3%;
   margin-right: 3%;
-  max-width:100%;
+  max-width:auto;
   height:auto;
 }
 
@@ -80,6 +80,8 @@ hr {
   width:200px;
   margin-left: 3%;
   margin-right: 3%;
+  max-width:auto;
+  height:auto;
 }
 
 #bootcamp {

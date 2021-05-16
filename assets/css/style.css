@@ -57,39 +57,42 @@ hr {
   margin-right: 20%;
 }
 
-#aboutMeImg {
+/* #aboutMeImg {
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
   max-width:100%;
   height:auto;
-}
+} */
 
 #ucf {
+  display: block;
   border-radius: 50%;
-  width:200px;
   margin-left: 3%;
   margin-right: 3%;
-  max-width:auto;
-  height:auto;
+  width: auto ;
+  max-width: 100% ;
+  height: auto
 }
 
 #jonelle {
   display: block;
   border-radius: 50%;
-  width:200px;
   margin-left: 3%;
   margin-right: 3%;
-  max-width:auto;
-  height:auto;
+  width: auto ;
+  max-width: 100% ;
+  height: auto
 }
 
 #bootcamp {
   display: block;
   border-radius: 50%;
-  width:200px;
   margin-left: 3%;
   margin-right: 3%;
+  width: auto ;
+  max-width: 100% ;
+  height: auto
 }
 
 .container {

@@ -128,6 +128,7 @@
     height:300px;
 }
 
+/* Project 1 */
 #weatherproject{
   display: block;
   text-align: left;
@@ -153,20 +154,38 @@ a:hover {
   height: auto
 }
 
+/* Project 2 */
 hr {
   background-color: rgb(145, 143, 143);
 }
 
-#weatherHeading {
-  color: rgb(24, 23, 23);
-}
 
-#calendarHeading {
-  color:  rgb(24, 23, 23);
+#calendarproject {
+  display: block;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 #calendar {
-  width: 100%;
+  margin-left: 3%;
+  width: auto ;
+  max-width: 100% ;
+  height: auto
+}
+
+#employeeproject {
+  display: block;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#employee {
+  margin-left: 3%;
+  width: auto ;
+  max-width: 100% ;
+  height: auto
 }
 
 /* .contactImg {

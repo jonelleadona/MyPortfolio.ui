@@ -128,8 +128,29 @@
     height:300px;
 }
 
+#weatherproject{
+  display: block;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
 #weather {
-  width: 100%;
+  margin-left: 3%;
+  width: auto ;
+  max-width: 100% ;
+  height: auto
 }
 
 hr {

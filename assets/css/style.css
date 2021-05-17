@@ -1,33 +1,7 @@
+/* About me page */
 #me {
   width:300px;
   border-radius: 50%;
-}
-
-#meImg {
-  border-radius: 50%;
-  width:200px;
-  margin-left: 3%;
-  margin-right: 3%;
-}
-
-#weather {
-  width: 100%;
-}
-
-hr {
-  background-color: rgb(145, 143, 143);
-}
-
-#weatherHeading {
-  color: rgb(24, 23, 23);
-}
-
-#calendarHeading {
-  color:  rgb(24, 23, 23);
-}
-
-#calendar {
-  width: 100%;
 }
 
 #mainjumbo {
@@ -112,36 +86,6 @@ hr {
   border-radius: 50%;
 }
 
-
-/* .contactImg {
-  border-radius: 50%;
-  max-height: 150px;
-  max-width: 200px;
-  width: 120px;
-  height: 120px;
-} */
-
-#contactMe {
-  text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-#resume {
-  width: 120px;
-  height: 120px;
-}
-
-#linkedin {
-  width: 140px;
-  height: 140px;
-}
-
-#github {
-  width: 115px;
-  height: 115px;
-}
-
 .wrapper {
   height: 20vh;
   /*This part is important for centering*/
@@ -170,4 +114,65 @@ hr {
   50% {
     border-color: transparent
   }
+}
+
+/* Projects page */
+#projectjumbotron {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background:
+    url("../images/projects.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    height:300px;
+}
+
+#weather {
+  width: 100%;
+}
+
+hr {
+  background-color: rgb(145, 143, 143);
+}
+
+#weatherHeading {
+  color: rgb(24, 23, 23);
+}
+
+#calendarHeading {
+  color:  rgb(24, 23, 23);
+}
+
+#calendar {
+  width: 100%;
+}
+
+/* .contactImg {
+  border-radius: 50%;
+  max-height: 150px;
+  max-width: 200px;
+  width: 120px;
+  height: 120px;
+} */
+
+#contactMe {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#resume {
+  width: 120px;
+  height: 120px;
+}
+
+#linkedin {
+  width: 140px;
+  height: 140px;
+}
+
+#github {
+  width: 115px;
+  height: 115px;
 }

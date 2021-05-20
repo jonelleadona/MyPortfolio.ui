@@ -13,6 +13,8 @@
     background-attachment: fixed;
     color:white;
     height:600px;
+    width: auto ;
+    max-width: 100% ;
 }
 
 #bottomjumbo {
@@ -24,6 +26,8 @@
     background-attachment: fixed;
     color:white;
     height:500px;
+    width: auto ;
+    max-width: 100% ;
 }
 
 .page-scroll{
@@ -126,6 +130,8 @@
     background-attachment: fixed;
     color:white;
     height:300px;
+    width: auto ;
+    max-width: 100% ;
 }
 
 /* Project 1 */
@@ -159,7 +165,6 @@ hr {
   background-color: rgb(145, 143, 143);
 }
 
-
 #calendarproject {
   display: block;
   text-align: left;
@@ -174,6 +179,7 @@ hr {
   height: auto
 }
 
+/* Project 3 */
 #employeeproject {
   display: block;
   text-align: left;
@@ -188,31 +194,19 @@ hr {
   height: auto
 }
 
-/* .contactImg {
-  border-radius: 50%;
-  max-height: 150px;
-  max-width: 200px;
-  width: 120px;
-  height: 120px;
-} */
-
-#contactMe {
-  text-align: left;
+#projectInfo {
+  display: block;
+  text-align: center;
   margin-left: 20%;
   margin-right: 20%;
 }
 
-#resume {
-  width: 120px;
-  height: 120px;
+/* Contact page */
+
+#contactMe {
+  display: block;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-#linkedin {
-  width: 140px;
-  height: 140px;
-}
-
-#github {
-  width: 115px;
-  height: 115px;
-}
